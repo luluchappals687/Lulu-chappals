@@ -82,7 +82,7 @@ if "admin_logged_in" not in st.session_state:
 if not st.session_state["admin_logged_in"]:
     admin_pass = st.sidebar.text_input("Enter Admin Password", type="password")
     if st.sidebar.button("Login as Admin"):
-        if admin_pass == "Fayas786":
+        if admin_pass == "6369337463":
             st.session_state["admin_logged_in"] = True
             st.sidebar.success("Logged in as Admin!")
             st.rerun()
